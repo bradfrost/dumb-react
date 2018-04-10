@@ -52,7 +52,7 @@ Start building in the components folder with this folder structure
 
 Create `src/components/Button` and add `Button.css`, `Button.jsx` and `Button.stories.js`
 
-Button.jsx will be:
+__Button.jsx__ will be:
 
 ```jsx
 import React, { Component } from 'react';
@@ -67,7 +67,7 @@ export class Button extends Component {
 }
 ```
 
-Button.stories.js will be:
+__Button.stories.js__ will be:
 
 ```js
 import React from 'react';
@@ -84,7 +84,7 @@ stories.add('Default', () =>
 
 ```
 
-Button.css is just CSS, but will automatically be loaded when the component is used.
+__Button.css__ is just CSS, but will automatically be loaded when the component is used.
 
 ### Run Storybook
 

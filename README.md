@@ -18,13 +18,18 @@ Below are the steps taken to get to where this repo is now. If you're starting a
 
 ## New Project Setup
 
-- npm install -g create-react-app
-- npm i -g @storybook/cli
-- create-react-app my-app
-- cd my-app
-- getstorybook
+- `npm install -g create-react-app`
+- `npm i -g @storybook/cli`
+- `create-react-app my-app`
+- `cd my-app`
+- `getstorybook`
 - changed stories to components
-- Change ./.storybook/config.js to import all files matching *.stories.js as follows:
+
+### Import all stories
+
+The default configuration of Storybook only imports a single index file. Lets change that to import all of our story files.
+
+Change ./.storybook/config.js to import all files matching *.stories.js as follows:
 
 ```js
 const req = require.context("../src/components", true, /.stories.js$/);

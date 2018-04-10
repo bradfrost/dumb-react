@@ -6,13 +6,14 @@ This repo is a combination of [Create React App](https://github.com/facebook/cre
 
 ## Using This Repo
 
-```bash
-git clone https://github.com/micahgodbolt/react-with-storybook-starter.git && cd react-with-storybook-starter
-npm install
-npm start (for the application)
+- `git clone https://github.com/micahgodbolt/react-with-storybook-starter.git && cd react-with-storybook-starter`
+- `npm install`
+- `npm start` (for the application)
+
 or
-npm run storybook (for storybook)
-```
+
+- `npm run storybook` (for storybook)
+
 
 Below are the steps taken to get to where this repo is now. If you're starting a new application I'd recommend following them, as the CLI's may have been updated since this repo was created.
 
@@ -23,7 +24,7 @@ Below are the steps taken to get to where this repo is now. If you're starting a
 - `create-react-app my-app`
 - `cd my-app`
 - `getstorybook`
-- changed stories to components
+- changed src/stories folder to src/components
 
 ### Import all stories
 

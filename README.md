@@ -1,8 +1,10 @@
+# Dumb React
+Dumb React is a collection of [React](https://reactjs.org/) components used to create a static (dumb) website screen. Why do this? Many React tutorials or boilerplates I've encountered are either too basic ("here's a button component!") or more often too complex ("here's a simple babel typescript redux cssmodules isometric oh god oh god oh god..."). I wanted to be able to be able to draw a straight line from how a simple component ("[atom](http://atomicdesign.bradfrost.com/chapter-2/#atoms)" in atomic design speak) makes its way into a [page](http://atomicdesign.bradfrost.com/chapter-2/#pages).
+
+I want to be able to build modular components and put content inside them. There are a ton of different ways to do this, but many teams - even ones that aren't building highly-interactive web apps that would actually benefit from a tool like React - are reaching for React to create component-driven experiences. So in that spirit, I wanted to create a demo that shows how to construct a whole screen out of React components.
+
 # React w/ Storybook Starter
-
-Want to get up and running with a React application and Storybook?
-
-This repo is a combination of [Create React App](https://github.com/facebook/create-react-app) and the [Storybook CLI](https://github.com/storybooks/storybook#getting-started). The `stories` folder has been changed to `components` and a new Button component has been scaffolded and used in the application.
+This repo is a fork of Micah Godbolt's [React with Storybook Starter](https://github.com/micahgodbolt/react-with-storybook-starter), which is a combination of [Create React App](https://github.com/facebook/create-react-app) and the [Storybook CLI](https://github.com/storybooks/storybook#getting-started). The `stories` folder has been changed to `components` and a new Button component has been scaffolded and used in the application.
 
 ## Using This Repo
 
@@ -120,7 +122,7 @@ npm start
 
 ## Adding Sass
 
-Adding Sass isn't very difficult, but it does involve "ejecting" out of create react app. This process is out of the scope of this demo, but I'll include some links below.
+Adding Sass involves "ejecting" out of create react app. This process is out of the scope of this demo, but I'll include some links below.
 
 - [Adding Sass support to Create React App](https://medium.com/front-end-hacking/how-to-add-sass-or-scss-to-create-react-app-c303dae4b5bc)
 - [Adding Sass support to Storybook](https://storybook.js.org/configurations/custom-webpack-config/)

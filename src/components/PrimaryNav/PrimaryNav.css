@@ -1,0 +1,14 @@
+.c-primary-nav {
+    margin-left: auto;
+}
+
+.c-primary-nav__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.c-primary-nav__item {
+    margin-right: 1rem;
+}

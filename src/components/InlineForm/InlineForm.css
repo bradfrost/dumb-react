@@ -1,0 +1,7 @@
+.c-inline-form {
+    display: flex;
+}
+
+.c-inline-form__input {
+    flex: 1;
+}

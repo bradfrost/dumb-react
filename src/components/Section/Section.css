@@ -1,0 +1,10 @@
+.c-section {
+    border: 1px solid blue;
+    padding: 2rem;
+}
+
+.c-section__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

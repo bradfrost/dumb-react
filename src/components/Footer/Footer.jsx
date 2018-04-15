@@ -5,8 +5,7 @@ export class Footer extends Component {
   render() {
     return (
       <footer className="c-footer" { ...this.props }>
-      I'm a footer
-        { this.props.children }
+        This is the footer. 
       </footer>
     );
   }

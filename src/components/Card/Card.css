@@ -2,3 +2,8 @@
     border: 1px solid #808080;
     padding: 1rem;
 }
+
+.c-card--dark {
+    background: #000;
+    color: #fff;
+}

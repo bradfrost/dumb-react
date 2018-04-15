@@ -1,0 +1,10 @@
+body {
+  background: #fff;
+  font-family: sans-serif;
+}
+
+.l-linelength-container {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}

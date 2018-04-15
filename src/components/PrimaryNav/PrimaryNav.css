@@ -1,5 +1,7 @@
 .c-primary-nav {
     margin-left: auto;
+    display: flex;
+    align-items: center;
 }
 
 .c-primary-nav__list {
@@ -10,5 +12,5 @@
 }
 
 .c-primary-nav__item {
-    margin-right: 1rem;
+    margin-right: 2rem;
 }

@@ -1,5 +1,4 @@
 .c-section {
-    border: 1px solid blue;
     padding: 2rem;
 }
 
@@ -7,4 +6,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2rem;
+}
+
+.c-section__title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.c-section__description {
+    margin: 0;
 }

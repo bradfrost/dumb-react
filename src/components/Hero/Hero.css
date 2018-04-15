@@ -1,4 +1,30 @@
 .c-hero {
     background: #eee;
-    padding: 4rem 2rem;
+    position: relative;
+}
+
+.c-hero__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit: cover;
+}
+
+.c-hero__body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 3rem 2rem;
+    z-index: 1;
+}
+
+.c-hero__title {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.c-hero__description {
+    font-size: 1.4rem;
+    margin: 0;
 }

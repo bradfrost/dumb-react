@@ -5,5 +5,10 @@ import { InlineForm } from './InlineForm';
 let stories = storiesOf('InlineForm', module);
 
 stories.add('Default', () =>
-  <InlineForm method="post" action="http://bradfrost.com" placeholder="Search the site" />
+  <InlineForm 
+    method="post"
+    action="http://bradfrost.com"
+    placeholder="Placeholder"
+    cta="Action" 
+  />
 );

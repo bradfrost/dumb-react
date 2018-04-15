@@ -15,7 +15,7 @@ This repo is a fork of Micah Godbolt's [React with Storybook Starter](https://gi
 
 ## Building components
 
-Start building in the components folder with this folder structure
+Start building in the `src/components` folder with this folder structure
 
 ```js
 - ComponentName

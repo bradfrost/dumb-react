@@ -21,14 +21,14 @@ Start building in the `src/components` folder with this folder structure
 - ComponentName
   - Component.css
   - ComponentName.stories.js
-  - ComponentName.jsx
+  - ComponentName.js
 ```
 
-Create `src/components/Button` and add `Button.css`, `Button.jsx` and `Button.stories.js`
+Create `src/components/Button` and add `Button.css`, `Button.js` and `Button.stories.js`
 
-__Button.jsx__ will be:
+__Button.js__ will be:
 
-```jsx
+```js
 import React, { Component } from 'react';
 import './Button.scss';
 

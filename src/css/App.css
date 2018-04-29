@@ -8,3 +8,21 @@ body {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+/*------------------------------------*\
+    #UTILITY CLASSES
+\*------------------------------------*/
+
+/**
+ * Visibility hidden
+ * 1) Visible to screenreaders but not to the screen 
+ */
+.u-is-vishidden {
+  position: absolute !important;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+}

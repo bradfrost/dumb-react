@@ -70,7 +70,6 @@ npm run storybook
 
 ```jsx
 import React, { Component } from 'react';
-import './App.css';
 import { Button } from './components/Button/Button';
 
 class App extends Component {

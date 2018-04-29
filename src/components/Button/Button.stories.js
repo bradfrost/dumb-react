@@ -8,5 +8,5 @@ let stories = storiesOf('Button', module);
 stories.addDecorator(withKnobs);
 
 stories.add('Default', () =>
-  <Button disabled={boolean('Disabled', true)} text={text('Label', 'Hello Button')} onClick={() => console.log("clicked!!")} />
+  <Button disabled={boolean('Disabled', true)} text={text('Button text', 'Button')} onClick={() => console.log("clicked!!")} />
 );

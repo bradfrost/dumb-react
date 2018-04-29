@@ -16,6 +16,7 @@ class App extends Component {
 	return (
 		<div className="App">
 			<Header />
+			
 			<Hero title="This is my hero" description="This is the hero description text" heroImgSrc={ heroImg } />
 			<Section title="Hi I'm a section title" description="This is a description of the section">
 		  		<CardList listItems={[
@@ -38,6 +39,7 @@ class App extends Component {
 					"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 					}
 		  		]} />
+				
 			</Section>
 
 			<Section title="Hi I'm another section" description="This is a different description">
@@ -74,7 +76,7 @@ class App extends Component {
 
 						<p>That is all.</p>
 					</TextPassage>
-				</div>
+				</div>{/* end l-linelength-container */}
 			</Section>
 			<Footer />
 	  	</div>

@@ -1,0 +1,20 @@
+{
+    "navList": [
+        {
+            "href": "#",
+            "text": "Nav Item 1"
+        },
+        {
+            "href": "#",
+            "text": "Nav Item 2"
+        },
+        {
+            "href": "#",
+            "text": "Nav Item 3"
+        },
+        {
+            "href": "#",
+            "text": "Nav Item 4"
+        }
+    ]
+}

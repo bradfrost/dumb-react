@@ -6,30 +6,20 @@ import { InlineForm } from '../InlineForm/InlineForm';
 
 import logoImg from '../../images/fpo-120x60.png';
 
+import globals from '../../data/globals.json';
+import logoData from '../../data/logo.json';
+import nav from '../../data/nav.json';
+
 export class Header extends Component {
   render() {
     return (
       <header className="c-header" { ...this.props }>
-        <Logo href="http://bradfrost.com" src={ logoImg } alt="Company Name" />
+        
+        <Logo href={ logoData.logoHref } src={ logoImg } alt={ globals.company.name } />
+        
         <PrimaryNav 
-          listItems={[
-            {
-              "href": "#",
-              "text": "Squeeze Its"
-            },
-            {
-              "href": "#",
-              "text": "Capri Suns"
-            },
-            {
-              "href": "#",
-              "text": "Hugs"
-            },
-            {
-              "href": "http://google.com",
-              "text": "Mondo"
-            }
-          ]} />
+          listItems={ nav.navList } />
+
           <InlineForm placeholder="Search the site" cta="Search" />
         { this.props.children }
       </header>

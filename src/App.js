@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import './css/App.css';
 import { Header } from './components/Header/Header';
-import { Logo } from './components/Logo/Logo';
 import { Hero } from './components/Hero/Hero';
-import { Button } from './components/Button/Button';
 import { Section } from './components/Section/Section';
 import { CardList } from './components/CardList/CardList';
 import { TextPassage } from './components/TextPassage/TextPassage';

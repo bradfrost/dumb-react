@@ -8,7 +8,13 @@ let stories = storiesOf('Card', module);
 stories.addDecorator(withKnobs);
 
 stories.add('Default', () =>
-  <Card styleModifier={select('styleModifier',{none: 'none', "c-card--dark": 'Dark'})} title={text('Title', 'Card Title')} description={text('Description', 'This is the card description')}>
+  <Card theme={select('theme',{none: 'none', "dark": 'Dark'})} title={text('Title', 'Card Title')} description={text('Description', 'This is the card description')}>
+    This is the card body.
+  </Card>
+);
+
+stories.add('Dark', () =>
+  <Card theme="dark" title={text('Title', 'Dark Card Title')} description={text('Description', 'This is the card description')}>
     This is the card body.
   </Card>
 );

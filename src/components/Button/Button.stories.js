@@ -10,3 +10,7 @@ stories.addDecorator(withKnobs);
 stories.add('Default', () =>
   <Button disabled={boolean('Disabled', false)} text={text('Button Text', 'Button')} onClick={() => console.log("clicked!!")} />
 );
+
+stories.add('Secondary', () =>
+  <Button isSecondary text={text('Button Text', 'Button')} onClick={() => console.log("clicked!!")} />
+);

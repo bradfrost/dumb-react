@@ -5,9 +5,13 @@ import "./Button.css";
 export class Button extends Component {
 
     render() {
+        const btnClass = classnames('c-btn', this.props.className, {
+            'c-btn--secondary': this.props.isSecondary
+        });
+
         return (
             <button
-                className={"c-btn " + this.props.styleModifier}
+                className={ btnClass }
                 {...this.props}
             >
                 {this.props.text}
@@ -17,5 +21,6 @@ export class Button extends Component {
 }
 
 Button.defaultProps = {
-	text: 'Button'
+    text: 'Button',
+    isSecondary: false
 }

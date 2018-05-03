@@ -1,4 +1,11 @@
 .c-btn {
-    background: white;
+    background: #333;
+    color: #fff;
+    border: 0;
+}
+
+.c-btn--secondary {
+    background: #eee;
+    color: #222;
     border: 1px solid #eee;
 }

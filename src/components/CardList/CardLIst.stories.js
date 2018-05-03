@@ -1,11 +1,12 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { withKnobs, array } from '@storybook/addon-knobs/react';
 import { CardList } from './CardList';
 
 let stories = storiesOf('CardList', module);
 
 stories.add('Default', () =>
-  <CardList listItems={[
+  <CardList listItems={array("List Items", [
     {
       "title": "Squeeze Its",
       "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
@@ -23,5 +24,5 @@ stories.add('Default', () =>
       "title": "Mondo",
       "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
-  ]} />
+  ])} />
 );

@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import classnames from "classnames";
+import PropTypes from 'prop-types';
 import "./Card.css";
 
 export class Card extends Component {
@@ -18,6 +20,8 @@ export class Card extends Component {
 }
 
 Card.defaultProps = {
+    styleModifier: PropTypes.oneOf(['', 'c-card--dark']),
 	title: 'Card Title',
-	description: 'This is the card description'
+    description: 'This is the card description',
+    children: PropTypes.node
 }

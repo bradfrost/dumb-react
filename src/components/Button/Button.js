@@ -17,7 +17,5 @@ export class Button extends Component {
 }
 
 Button.defaultProps = {
-	text: 'Button Texxxxxxxxxxxxt',
-	color: 'red',
-	size: 'small'
+	text: 'Button'
 }

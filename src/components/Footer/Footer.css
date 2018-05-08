@@ -3,3 +3,8 @@
     color: #fff;
     padding: 2rem;
 }
+
+.c-footer__copyright {
+    text-align: center;
+    margin-top: 2rem;
+}

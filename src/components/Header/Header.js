@@ -7,7 +7,6 @@ import { InlineForm } from "../InlineForm/InlineForm";
 import logoImg from "../../images/fpo-120x60.png";
 
 import globals from "../../data/globals.json";
-import nav from "../../data/nav.json";
 
 export class Header extends Component {
     render() {
@@ -19,7 +18,26 @@ export class Header extends Component {
                     alt={globals.company.name}
                 />
 
-                <PrimaryNav listItems={nav.navList} />
+                <PrimaryNav
+                    listItems={[
+                        {
+                            href: "#",
+                            text: "Nav Item 1"
+                        },
+                        {
+                            href: "#",
+                            text: "Nav Item "
+                        },
+                        {
+                            href: "#",
+                            text: "Nav Item 3"
+                        },
+                        {
+                            href: "#",
+                            text: "Nav Item 4"
+                        }
+                    ]}
+                />
 
                 <InlineForm
 					method="post"

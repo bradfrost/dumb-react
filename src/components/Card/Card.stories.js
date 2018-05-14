@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, text, boolean, number, select } from '@storybook/addon-knobs/react';
 import { Card } from './Card';
 
-let stories = storiesOf('Card', module);
+let stories = storiesOf('Blocks/Card', module);
 
 stories.addDecorator(withKnobs);
 

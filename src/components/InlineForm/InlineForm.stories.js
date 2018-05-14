@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { InlineForm } from './InlineForm';
 
-let stories = storiesOf('InlineForm', module);
+let stories = storiesOf('Forms/InlineForm', module);
 
 stories.add('Default', () =>
   <InlineForm 

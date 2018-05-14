@@ -4,7 +4,7 @@ import { Logo } from './Logo';
 
 import logoImg from '../../images/fpo-120x60.png';
 
-let stories = storiesOf('Logo', module);
+let stories = storiesOf('Global/Logo', module);
 
 stories.add('Default', () =>
   <Logo href="http://bradfrost.com" src={ logoImg } alt="Company Name" />

@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { TextPassage } from './TextPassage';
 
-let stories = storiesOf('TextPassage', module);
+let stories = storiesOf('Text/TextPassage', module);
 
 stories.add('Default', () =>
   <TextPassage>

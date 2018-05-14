@@ -10,7 +10,7 @@ export class CardList extends Component {
                 {this.props.listItems.map(function(listItem) {
                     return (
                         <Card
-                            styleModifier={listItem.styleModifier}
+                            theme={listItem.theme}
                             title={listItem.title}
                             description={listItem.description}
                         />

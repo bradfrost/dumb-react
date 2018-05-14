@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, array } from '@storybook/addon-knobs/react';
 import { CardList } from './CardList';
 
-let stories = storiesOf('CardList', module);
+let stories = storiesOf('Lists & Collections/CardList', module);
 
 stories.add('Default', () =>
   <CardList listItems={array("List Items", [

@@ -5,8 +5,11 @@ import "./Button.css";
 export class Button extends Component {
 
     render() {
-        const btnClass = classnames('c-btn', this.props.className, {
-            'c-btn--secondary': this.props.isSecondary
+        //TODO: I don't know the most elegent, legible way
+        //      to stitch together classNames based on props.
+        let btnClass = classnames({
+            "c-btn": true,
+            "c-btn--secondary": this.props.isSecondary
         });
 
         return (

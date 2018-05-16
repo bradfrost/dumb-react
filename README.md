@@ -3,6 +3,8 @@ Dumb React is a collection of [React](https://reactjs.org/) components used to c
 
 There are a ton of different ways to build reusable components and put dynamic content inside them, and many teams &mdash; even ones that aren't building highly-interactive web apps that would actually benefit from a tool like React &mdash; are reaching for React to create component-driven experiences. So in that spirit, I wanted to create a demo that shows how to construct a whole screen (even if it's dumb, static one) one out of React components.
 
+[More info in my blog post](http://bradfrost.com/blog/post/dumb-react/)
+
 # React w/ Storybook Starter
 This repo is a fork of Micah Godbolt's [React with Storybook Starter](https://github.com/micahgodbolt/react-with-storybook-starter), which is a combination of [Create React App](https://github.com/facebook/create-react-app) and the [Storybook CLI](https://github.com/storybooks/storybook#getting-started). The `stories` folder has been changed to `components` and a new Button component has been scaffolded and used in the application.
 

@@ -30,7 +30,7 @@ __Button.js__ will be:
 
 ```js
 import React, { Component } from 'react';
-import './Button.scss';
+import './Button.css';
 
 export class Button extends Component {
   render() {

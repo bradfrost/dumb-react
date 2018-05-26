@@ -18,7 +18,7 @@ export class InlineForm extends Component {
                     className="c-inline-form__input"
                     placeholder={this.props.placeholder}
                 />
-                <Button styleModifier="c-btn--light" text={this.props.cta} />
+                <Button text={this.props.cta} />
             </form>
         );
     }

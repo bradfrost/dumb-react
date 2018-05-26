@@ -8,15 +8,8 @@ export class Button extends Component {
         const btnClass = classnames('c-btn', this.props.className, {
             'c-btn--secondary': this.props.isSecondary
         });
-
-        return (
-            <button
-                className={ btnClass }
-                {...this.props}
-            >
-                {this.props.text}
-            </button>
-        );
+        
+        return <button className={btnClass}>{this.props.text}</button>;
     }
 }
 

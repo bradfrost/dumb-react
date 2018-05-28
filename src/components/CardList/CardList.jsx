@@ -5,16 +5,22 @@ import { Card } from "../Card/Card";
 
 export class CardList extends Component {
     render() {
-        return <ul className="c-card-list">
-            {this.props.listItems.map((item, index) => (
-                <Card
-                    key={index}
-                    theme={item.theme}
-                    title={item.title}
-                    description={item.description}
-                > </Card>
-            ))}
-        </ul>;
+
+        return (
+            <ul className="c-card-list">
+                {this.props.listItems.map(function(listItem, index) {
+                    return (
+                        <Card
+                            key={`c-card-${index}`}
+                            theme={listItem.theme}
+                            title={listItem.title}
+                            description={listItem.description}
+                        />
+                    );
+                })}
+            </ul>
+        );
+
     }
 }
 

@@ -7,9 +7,10 @@ export class CardList extends Component {
     render() {
         return (
             <ul className="c-card-list">
-                {this.props.listItems.map(function(listItem) {
+                {this.props.listItems.map(function(listItem, index) {
                     return (
                         <Card
+                            key={`c-card-${index}`}
                             theme={listItem.theme}
                             title={listItem.title}
                             description={listItem.description}

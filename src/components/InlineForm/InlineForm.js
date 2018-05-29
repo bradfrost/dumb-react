@@ -10,13 +10,15 @@ export class InlineForm extends Component {
                 method={this.props.method}
                 action={this.props.action}
             >
-                <label for={ this.props.id } className="c-inline-form__label u-is-vishidden">{this.props.label}</label>
+                <label htmlFor={ this.props.id } className="c-inline-form__label u-is-vishidden">
+                    {this.props.label}
+                </label>
                 <input
                     id={ this.props.id }
                     className="c-inline-form__input"
                     placeholder={this.props.placeholder}
                 />
-                <Button styleModifier="c-btn--light" text={this.props.cta} />
+                <Button text={this.props.cta} />
             </form>
         );
     }

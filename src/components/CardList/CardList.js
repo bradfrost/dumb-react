@@ -5,9 +5,10 @@ import { Card } from "../Card/Card";
 
 export class CardList extends Component {
     render() {
+
         return (
             <ul className="c-card-list">
-                {this.props.listItems.map(function(listItem, index) {
+                {this.props.listItems.map((listItem, index) => {
                     return (
                         <Card
                             key={`c-card-${index}`}
@@ -19,6 +20,7 @@ export class CardList extends Component {
                 })}
             </ul>
         );
+
     }
 }
 

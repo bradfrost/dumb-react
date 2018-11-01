@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import classnames from "classnames";
+import PropTypes from 'prop-types';
 import "./Button.css";
 
 export class Button extends Component {
@@ -12,6 +13,8 @@ export class Button extends Component {
         return (
             <button
                 className={ btnClass }
+                disabled={ this.props.disabled }
+
                 {...this.props}
             >
                 {this.props.text}
@@ -20,7 +23,15 @@ export class Button extends Component {
     }
 }
 
+Button.propTypes = {
+    btnClass: PropTypes.string,
+    isSecondary: PropTypes.bool,
+    disabled: PropTypes.bool,
+    text: PropTypes.text
+}
+
 Button.defaultProps = {
-    text: 'Button',
-    isSecondary: false
+    isSecondary: false,
+    disabled: false,
+    text: 'Button'
 }

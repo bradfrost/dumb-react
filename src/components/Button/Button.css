@@ -4,6 +4,10 @@
     border: 0;
 }
 
+.c-btn[disabled] {
+    opacity: 0.5;
+}
+
 .c-btn--secondary {
     background: #eee;
     color: #222;

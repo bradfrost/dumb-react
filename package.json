@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "prop-types": "^15.6.1",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
+    "node-gyp": "^3.8.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -25,7 +26,7 @@
     "babel-core": "^6.26.0",
     "babel-runtime": "^6.26.0",
     "classnames": "^2.2.5",
-    "node-sass": "^4.8.3",
+    "node-sass": "^4.9.4",
     "sass-loader": "^6.0.7"
   }
 }

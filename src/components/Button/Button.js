@@ -7,14 +7,13 @@ export class Button extends Component {
 
     render() {
         const btnClass = classnames('c-btn', this.props.className, {
-            'c-btn--secondary': this.props.isSecondary
+            'c-btn--secondary': this.props.issecondary
         });
 
         return (
             <button
                 className={ btnClass }
                 disabled={ this.props.disabled }
-
                 {...this.props}
             >
                 {this.props.text}
@@ -25,13 +24,12 @@ export class Button extends Component {
 
 Button.propTypes = {
     btnClass: PropTypes.string,
-    isSecondary: PropTypes.bool,
+    issecondary: PropTypes.bool,
     disabled: PropTypes.bool,
-    text: PropTypes.text
+    text: PropTypes.string
 }
 
 Button.defaultProps = {
-    isSecondary: false,
     disabled: false,
     text: 'Button'
 }

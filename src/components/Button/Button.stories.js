@@ -12,5 +12,5 @@ stories.add('Default', () =>
 );
 
 stories.add('Secondary', () =>
-  <Button isSecondary text={text('Button Text', 'Button')} onClick={() => console.log("clicked!!")} />
+  <Button issecondary text={text('Button Text', 'Button')} onClick={() => console.log("clicked!!")} />
 );

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './TextPassage.css';
 
 export class TextPassage extends Component {
@@ -11,3 +12,6 @@ export class TextPassage extends Component {
   }
 }
 
+TextPassage.propTypes = {
+  children: PropTypes.node
+}

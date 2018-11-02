@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './Logo.css';
 
 export class Logo extends Component {
@@ -12,3 +13,8 @@ export class Logo extends Component {
   }
 }
 
+Logo.propTypes = {
+  href: PropTypes.string,
+  src: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired
+}

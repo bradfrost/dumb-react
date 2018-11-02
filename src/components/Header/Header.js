@@ -1,11 +1,10 @@
 import React, { Component } from "react";
+import PropTypes from 'prop-types';
 import "./Header.css";
 import { Logo } from "../Logo/Logo";
 import { PrimaryNav } from "../PrimaryNav/PrimaryNav";
 import { InlineForm } from "../InlineForm/InlineForm";
-
 import logoImg from "../../images/fpo-120x60.png";
-
 import globals from "../../data/globals.json";
 
 export class Header extends Component {
@@ -51,4 +50,8 @@ export class Header extends Component {
             </header>
         );
     }
+}
+
+Header.propTypes = {
+    children: PropTypes.node
 }

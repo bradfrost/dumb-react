@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 import { storiesOf } from '@storybook/react';
-import { withKnobs, text, boolean, number } from '@storybook/addon-knobs/react';
+import { withKnobs } from '@storybook/addon-knobs/react';
 import { withSmartKnobs } from 'storybook-addon-smart-knobs';
 import { Button } from './Button';
 
@@ -13,5 +13,5 @@ stories.add('Default', () =>
 );
 
 stories.add('Secondary', () =>
-  <Button issecondary text={text('Button Text', 'Button')} onClick={() => console.log("clicked!!")} />
+  <Button issecondary text="Secondary Button" />
 );

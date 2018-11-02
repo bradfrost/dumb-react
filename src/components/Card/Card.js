@@ -5,8 +5,6 @@ import "./Card.css";
 
 export class Card extends Component {
     render() {
-        //TODO: I don't know the most elegent, legible way
-        //      to stitch together classNames based on props.
         let cardClass = classnames({
             "c-card": true,
             "c-card--dark": this.props.theme === "dark"
@@ -26,9 +24,14 @@ export class Card extends Component {
     }
 }
 
-Card.defaultProps = {
-    styleModifier: PropTypes.oneOf(["", "c-card--dark"]),
-    title: "Card Title",
-    description: "This is the card description",
+Card.propTypes = {
+    cardClass: PropTypes.string,
+    title: PropTypes.string,
+    description: PropTypes.string,
     children: PropTypes.node
+}
+
+Card.defaultProps = {
+    title: "Card Title",
+    description: "This is the card description"
 };

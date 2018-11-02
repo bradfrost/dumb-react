@@ -22,6 +22,6 @@ export class CardList extends Component {
     }
 }
 
-CardList.defaultProps = {
-	listItems: PropTypes.array
+CardList.propTypes = {
+    listItems: PropTypes.array
 }

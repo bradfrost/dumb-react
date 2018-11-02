@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './PrimaryNav.css';
 
 export class PrimaryNav extends Component {
@@ -18,5 +19,11 @@ export class PrimaryNav extends Component {
       </nav>
     );
   }
+}
+
+PrimaryNav.propTypes = {
+  listItems: PropTypes.array.isRequired,
+  href: PropTypes.string,
+  text: PropTypes.string
 }
 

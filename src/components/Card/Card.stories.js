@@ -15,7 +15,7 @@ stories.add('Default', () =>
 );
 
 stories.add('Dark', () =>
-  <Card theme="dark" title={text('Title', 'Dark Card Title')} description={text('Description', 'This is the card description')}>
+  <Card theme="dark" title="Dark Card Title" description="This is the card description">
     This is the card body.
   </Card>
 );

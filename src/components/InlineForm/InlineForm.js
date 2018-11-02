@@ -27,6 +27,7 @@ InlineForm.propTypes = {
     method: PropTypes.oneOf(['get', 'post']).isRequired,
     action: PropTypes.string.isRequired,
     id: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
     placeholder: PropTypes.string,
     cta: PropTypes.string
 }
